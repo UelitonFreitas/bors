@@ -6,5 +6,6 @@ fun main(args: Array<String>) {
 
 
     sendMessage(Message("hi", "ueliton", "lara"))
+    sendMessage(Message("hi", "lara", "ueliton"))
     println("Program arguments: ${args.joinToString()}")
 }
