@@ -5,6 +5,6 @@ fun main(args: Array<String>) {
     // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
 
 
-    sendMessage(Message("hi", "ueliton", "lara"))
+    sendMessageToAnyone(Message("hi", "ueliton", "lara"))
     println("Program arguments: ${args.joinToString()}")
 }
